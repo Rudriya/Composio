@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "OAuth2 / connected-app token",
+    "credential_access": "Self-serve with org/admin",
+    "api_surface": "REST + SOAP + GraphQL; very broad CRM",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 admin approval/scopes",
+    "evidence": [
+      "https://developer.salesforce.com/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "OAuth2 / private app token",
+    "credential_access": "Self-serve",
+    "api_surface": "REST; broad CRM/content/automation",
+    "mcp": "Official remote MCP available",
+    "buildability": "Yes \u2014 scopes and account tier vary",
+    "evidence": [
+      "https://developers.hubspot.com/docs/api/overview"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.pipedrive.com/docs/api/v1"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://docs.attio.com/rest-api/overview"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://docs.twenty.com/developers"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.podio.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://www.zoho.com/crm/developer/docs/api/v8/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.close.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.copper.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "category": "CRM & sales",
+    "purpose": "Manage customer, pipeline, and sales-workflow data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://api.docs.dealcloud.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.zendesk.com/api-reference/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.intercom.com/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.freshworks.com/freshdesk/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://dev.frontapp.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.usepylon.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://dev.ladesk.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://www.plain.com/docs/api-reference"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.helpscout.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.gorgias.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "category": "Support & helpdesk",
+    "purpose": "Handle customer support conversations and tickets.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://developer.gladly.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "OAuth2 / app token / bot token",
+    "credential_access": "Self-serve",
+    "api_surface": "REST-style Web API; broad messaging/admin varies",
+    "mcp": "Official remote MCP available",
+    "buildability": "Yes \u2014 workspace install/admin scopes can block",
+    "evidence": [
+      "https://api.slack.com/authentication"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://www.twilio.com/docs/usage/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://www.zoho.com/cliq/help/restapi/v2/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 24,
+    "app": "Lark (LarkSuite)",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://open.larksuite.com/document/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://pumble.com/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://discord.com/developers/docs/intro"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://core.telegram.org/bots/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.facebook.com/docs/whatsapp"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.aircall.io/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "category": "Communications & messaging",
+    "purpose": "Send, receive, and manage real-time communications.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.vonage.com/en/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "OAuth2 + developer token",
+    "credential_access": "Gated / approval",
+    "api_surface": "REST/gRPC; broad ads",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 developer token/access level",
+    "evidence": [
+      "https://developers.google.com/google-ads/api/docs/start"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "OAuth2 / access token",
+    "credential_access": "Gated / review",
+    "api_surface": "Graph API; broad ads",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 app review/business verification",
+    "evidence": [
+      "https://developers.facebook.com/docs/marketing-apis/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "OAuth2",
+    "credential_access": "Gated / partner approval",
+    "api_surface": "REST; ads/marketing products",
+    "mcp": "No first-party MCP found",
+    "buildability": "No \u2014 Marketing API access approval",
+    "evidence": [
+      "https://learn.microsoft.com/linkedin/marketing/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://highlevel.stoplight.io/docs/integrations/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://mailchimp.com/developer/marketing/api/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.klaviyo.com/en/docs/overview"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://systeme.io/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.pinterest.com/docs/api/v5/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 39,
+    "app": "Threads (Meta)",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.facebook.com/docs/threads"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "category": "Marketing, ads, email & social",
+    "purpose": "Run campaigns, ads, audience, and marketing automation.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://www.twilio.com/docs/sendgrid/api-reference"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "OAuth2 / Admin API access token",
+    "credential_access": "Self-serve",
+    "api_surface": "REST legacy + GraphQL; broad commerce",
+    "mcp": "Official remote MCP available",
+    "buildability": "Yes \u2014 store install/access scopes",
+    "evidence": [
+      "https://shopify.dev/docs/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.bigcommerce.com/docs/rest-management"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.salesforce.com/docs/commerce"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.adobe.com/commerce/webapi/rest/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://developers.squarespace.com/commerce-apis"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://api-docs.ecwid.com/reference/rest-api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://gumroad.com/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "Login with Amazon (OAuth2) token",
+    "credential_access": "Gated / registration",
+    "api_surface": "REST; broad seller operations",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 seller/developer registration",
+    "evidence": [
+      "https://developer-docs.amazon.com/sp-api/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "category": "Ecommerce",
+    "purpose": "Operate catalog, orders, storefront, and commerce workflows.",
+    "auth": "Unclear; verify",
+    "credential_access": "Needs verification",
+    "api_surface": "No public API evidence located in curated seed",
+    "mcp": "No first-party MCP found",
+    "buildability": "No \u2014 public developer surface unconfirmed",
+    "evidence": [
+      "https://fanbasis.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://docs.dataforseo.com/v3/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://seranking.com/api.html"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.ahrefs.com/docs/api/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://docs.mrscraper.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://docs.apify.com/api/v2"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://docs.firecrawl.dev/api-reference/introduction"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.brightdata.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "None (local CLI)",
+    "credential_access": "Self-serve",
+    "api_surface": "Local CLI; username lookup",
+    "mcp": "Agent-callable CLI",
+    "buildability": "Yes \u2014 rate limits/site terms",
+    "evidence": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "Unclear; verify",
+    "credential_access": "Paid / contact sales likely",
+    "api_surface": "Data platform; public API evidence needs confirmation",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 commercial/API access",
+    "evidence": [
+      "https://waterfall.io/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "category": "Data, SEO & scraping",
+    "purpose": "Collect, enrich, analyze, or extract web/data signals.",
+    "auth": "API key / OAuth varies by integration",
+    "credential_access": "Paid / workspace",
+    "api_surface": "Workflow/integration surface; public API breadth varies",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan and integration permissions",
+    "evidence": [
+      "https://www.clay.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "OAuth2 / fine-grained PAT / App token",
+    "credential_access": "Self-serve",
+    "api_surface": "REST + GraphQL; very broad",
+    "mcp": "Official GitHub MCP server",
+    "buildability": "Yes \u2014 mature APIs; least-privilege scopes",
+    "evidence": [
+      "https://docs.github.com/rest"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://vercel.com/docs/rest-api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://docs.netlify.com/api/get-started/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.cloudflare.com/api/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://supabase.com/docs/guides/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://neo4j.com/docs/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.snowflake.com/en/developer-guide/sql-api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://www.mongodb.com/docs/atlas/api/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.datadoghq.com/api/latest/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "category": "Developer, infra & data",
+    "purpose": "Build, deploy, operate, or store software and data.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.sentry.io/api/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "OAuth2 / internal integration token",
+    "credential_access": "Self-serve",
+    "api_surface": "REST; broad pages/databases/users",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 integration sharing required",
+    "evidence": [
+      "https://developers.notion.com/reference/intro"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "OAuth2 / personal access token",
+    "credential_access": "Self-serve",
+    "api_surface": "REST; broad base/table/record",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 scoped token/API",
+    "evidence": [
+      "https://airtable.com/developers/web/api/introduction"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "OAuth2 / personal API key",
+    "credential_access": "Self-serve",
+    "api_surface": "GraphQL; broad workspace/project/issue",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 mature GraphQL API",
+    "evidence": [
+      "https://developers.linear.app/docs/graphql/working-with-the-graphql-api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developers.asana.com/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.monday.com/api-reference/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://clickup.com/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://coda.io/developers/apis/v1"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://developers.smartsheet.com/api/smartsheet/openapi"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "category": "Productivity & project management",
+    "purpose": "Manage work, documents, projects, and structured collaboration.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://help.getharvest.com/api-v2/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key / restricted key / OAuth2 Connect",
+    "credential_access": "Self-serve",
+    "api_surface": "REST; very broad payments/finance",
+    "mcp": "Official remote MCP available",
+    "buildability": "Yes \u2014 strong API; handle financial permissions",
+    "evidence": [
+      "https://docs.stripe.com/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "client_id + secret / OAuth where institution requires",
+    "credential_access": "Self-serve sandbox; production gated",
+    "api_surface": "REST; broad financial data/products",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 production approval/institution coverage",
+    "evidence": [
+      "https://plaid.com/docs/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://developers.binance.com/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://www.nmi.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://ipayx.ai/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://developer.xero.com/documentation/api/accounting/overview/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://developer.brex.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://docs.ramp.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "category": "Finance & fintech",
+    "purpose": "Move money or manage financial data and operations.",
+    "auth": "API key",
+    "credential_access": "Paid / contract",
+    "api_surface": "REST; dataset access",
+    "mcp": "No first-party MCP found",
+    "buildability": "No \u2014 commercial data license",
+    "evidence": [
+      "https://pitchbook.com/data/api"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "No public NotebookLM API identified",
+    "credential_access": "Gated / enterprise path",
+    "api_surface": "Gemini APIs are separate; NotebookLM surface uncertain",
+    "mcp": "No first-party MCP found",
+    "buildability": "No \u2014 distinct product/API gap",
+    "evidence": [
+      "https://cloud.google.com/gemini/docs"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "Unclear; verify",
+    "credential_access": "Needs verification",
+    "api_surface": "MCP/integration claims require account documentation",
+    "mcp": "MCP claimed; verify provider",
+    "buildability": "Needs verification \u2014 public API/auth unclear",
+    "evidence": [
+      "https://otter.ai/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://fathom.video/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://consensus.app/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Needs verification",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Needs verification \u2014 docs/auth evidence incomplete",
+    "evidence": [
+      "https://docs.reducto.ai/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.62,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "OAuth2 / API token (verify)",
+    "credential_access": "Gated / account",
+    "api_surface": "Documented product integrations; verify public API breadth",
+    "mcp": "MCP documented",
+    "buildability": "Conditional \u2014 account/product access",
+    "evidence": [
+      "https://docs.devin.ai/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 97,
+    "app": "higgsfield",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://higgsfield.ai/cli"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "None (local CLI)",
+    "credential_access": "Self-serve",
+    "api_surface": "Local CLI/library; render diagrams",
+    "mcp": "Agent-callable CLI",
+    "buildability": "Yes \u2014 local execution sandboxing",
+    "evidence": [
+      "https://github.com/mermaid-js/mermaid-cli"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.92,
+    "review_status": "reviewed",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Self-serve",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Yes \u2014 documented API; confirm scopes and rate limits",
+    "evidence": [
+      "https://transcriptapi.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.76,
+    "review_status": "auto",
+    "researched_at": "2026-08-17"
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "category": "AI, research & media-native",
+    "purpose": "Create, analyze, or manage AI, research, and media work.",
+    "auth": "API key or OAuth2 (verify exact scheme)",
+    "credential_access": "Paid / admin or sales gate",
+    "api_surface": "Documented public REST API; breadth to verify",
+    "mcp": "No first-party MCP found",
+    "buildability": "Conditional \u2014 plan, account, or commercial access",
+    "evidence": [
+      "https://grain.com/"
+    ],
+    "evidence_tier": "official docs/homepage",
+    "confidence": 0.7,
+    "review_status": "queue",
+    "researched_at": "2026-08-17"
+  }
+]

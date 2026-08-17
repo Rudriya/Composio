@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://developer.salesforce.com/docs",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://developer.zendesk.com/api-reference/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://api.slack.com/authentication",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://developers.google.com/google-ads/api/docs/start",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "miss",
+    "human_corrected": true,
+    "finding": "Access is not merely OAuth: LinkedIn Marketing API products require approval.",
+    "evidence": "https://learn.microsoft.com/linkedin/marketing/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://shopify.dev/docs/api",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "miss",
+    "human_corrected": true,
+    "finding": "Initial template carried an obsolete AWS SigV4 requirement; Amazon removed it in 2023. Final row retains LWA OAuth2 only.",
+    "evidence": "https://developer-docs.amazon.com/sp-api/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://docs.dataforseo.com/v3/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://docs.ahrefs.com/docs/api/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://docs.github.com/rest",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://docs.snowflake.com/en/developer-guide/sql-api",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://developers.notion.com/reference/intro",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://docs.stripe.com/api",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://plaid.com/docs/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://pitchbook.com/data/api",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "miss",
+    "human_corrected": true,
+    "finding": "Gemini documentation does not establish a public NotebookLM API.",
+    "evidence": "https://cloud.google.com/gemini/docs",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "miss",
+    "human_corrected": true,
+    "finding": "First-pass MCP/auth claim was not corroborated by a public developer reference.",
+    "evidence": "https://otter.ai/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "pass",
+    "human_corrected": false,
+    "finding": "No material correction; official evidence supports classification.",
+    "evidence": "https://docs.devin.ai/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "fields_checked": [
+      "auth",
+      "credential_access",
+      "api_surface",
+      "mcp",
+      "buildability"
+    ],
+    "first_pass": "miss",
+    "human_corrected": true,
+    "finding": "Homepage alone does not prove a public API; retain as conditional.",
+    "evidence": "https://grain.com/",
+    "reviewer": "human cross-check",
+    "reviewed_at": "2026-08-17"
+  }
+]
